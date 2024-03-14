@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.main {
+    background-image: url(./assets/images/bg.jpg);
+    height: 80vh;
+    position: relative;
+}
+
+.main .box{
+ height: 80vh;
+ width: 100%;
+ opacity: 0.44;
+ background-color: black;
+ position: absolute;
+ top: 0;
+}
+
+nav{
+    max-width: 65vw;
+    justify-content: space-between;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1200px , 100vw);
+    margin: auto;  
+    display: flex;
+    align-items: center; 
+    height: 80px; 
+}
+
+nav img{
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    position: relative;
+    gap: 23px;
+}
+.hero> :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    font-style: bold;
+    z-index: 10;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
