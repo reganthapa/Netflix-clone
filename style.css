@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,14 +12,14 @@ body{
 
 .main {
     background-image: url(./assets/images/bg.jpg);
-    height: 80vh;
+    height: 70vh;
     position: relative;
 }
 
 .main .box{
- height: 80vh;
+ height: 70vh;
  width: 100%;
- opacity: 0.44;
+ opacity: 0.70;
  background-color: black;
  position: absolute;
  top: 0;
@@ -48,7 +50,7 @@ nav button{
 }
 
 .hero{
-    height: 100%;
+    height: calc(100% - 80px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,12 +59,16 @@ nav button{
     color: white;
     position: relative;
     gap: 23px;
+    padding: 0 25px;
 }
 .hero> :nth-child(1){
     font-size: 48px;
+    font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: bold;
     z-index: 10;
+    text-align: center;
+
 }
 
 .hero> :nth-child(2){
@@ -74,6 +80,51 @@ nav button{
     font-weight: 400;
     font-size: 20px;
 }
+
+
+
+.btn{
+    padding: 6px 12px;
+    font-weight: 700;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 4px;
+   font-size: 17px;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.hero input{
+    font-size: 30px;
+    padding: 3px 24px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+
+.btn-signin{
+    background-color: red;
+    color: white;
+}
+
+
+
+.btn-red{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    padding: 3px 24px;
+    border-radius: 4px;
+
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(17, 17, 17);
+}
+
+
+
 
 
 
